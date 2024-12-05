@@ -255,12 +255,12 @@ public class Ejercicio3 {
         if(cinta.charAt(posicion) == 'y') return estadoE1E9(posicion+1);
         if(cinta.charAt(posicion) == 'z') return estadoE1E9(posicion+1);
         
-        if(cinta.charAt(posicion) == 'A') return estadoE1E8(posicion+1);
-        if(cinta.charAt(posicion) == 'B') return estadoE1E8(posicion+1);
-        if(cinta.charAt(posicion) == 'C') return estadoE1E8(posicion+1);
-        if(cinta.charAt(posicion) == 'D') return estadoE1E8(posicion+1);
-        if(cinta.charAt(posicion) == 'E') return estadoE1E8(posicion+1);
-        if(cinta.charAt(posicion) == 'F') return estadoE1E8(posicion+1);
+        if(cinta.charAt(posicion) == 'A') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == 'B') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == 'C') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == 'D') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == 'E') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == 'F') return estadoE1E9(posicion+1);
         
         if(cinta.charAt(posicion) == 'G') return estadoE1(posicion+1);
         if(cinta.charAt(posicion) == 'H') return estadoE1(posicion+1);
@@ -284,16 +284,16 @@ public class Ejercicio3 {
         if(cinta.charAt(posicion) == 'Y') return estadoE1(posicion+1);
         if(cinta.charAt(posicion) == 'Z') return estadoE1(posicion+1);
 
-        if(cinta.charAt(posicion) == '1') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '2') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '3') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '4') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '5') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '6') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '7') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '8') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '9') return estadoE1E7(posicion+1);
-        if(cinta.charAt(posicion) == '0') return estadoE1E7(posicion+1);
+        if(cinta.charAt(posicion) == '1') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '2') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '3') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '4') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '5') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '6') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '7') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '8') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '9') return estadoE1E9(posicion+1);
+        if(cinta.charAt(posicion) == '0') return estadoE1E9(posicion+1);
         
         return false;
     }
@@ -367,147 +367,5 @@ public class Ejercicio3 {
         
         return false;
     }
-    
-    public boolean estadoE1E8(int posicion){
-        if(cinta.length() == posicion) return true;
-        if(cinta.charAt(posicion) == 'a') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'b') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'c') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'd') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'e') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'f') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'g') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'h') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'i') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'j') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'k') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'l') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'm') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'n') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'ñ') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'o') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'p') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'q') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'r') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 's') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 't') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'u') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'v') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'w') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'x') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'y') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'z') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'A') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'B') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'C') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'D') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'E') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'F') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'G') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'H') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'I') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'J') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'K') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'L') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'M') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'N') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'Ñ') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'O') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'P') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'Q') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'R') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'S') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'T') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'U') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'V') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'W') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'X') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'Y') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'Z') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '1') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '2') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '3') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '4') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '5') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '6') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '7') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '8') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '9') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '0') return estadoE2(posicion+1);
-
-        
-        return false;
-    }
-    
-    public boolean estadoE1E7(int posicion){
-        if(cinta.length() == posicion) return true;
-        if(cinta.charAt(posicion) == 'a') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'b') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'c') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'd') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'e') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'f') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'g') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'h') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'i') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'j') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'k') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'l') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'm') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'n') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'ñ') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'o') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'p') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'q') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'r') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 's') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 't') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'u') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'v') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'w') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'x') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'y') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'z') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'A') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'B') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'C') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'D') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'E') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'F') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'G') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'H') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'I') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'J') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'K') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'L') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'M') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'N') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'Ñ') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'O') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'P') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'Q') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'R') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'S') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'T') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'U') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'V') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'W') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'X') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'Y') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == 'Z') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '1') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '2') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '3') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '4') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '5') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '6') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '7') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '8') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '9') return estadoE2(posicion+1);
-        if(cinta.charAt(posicion) == '0') return estadoE2(posicion+1);
-
-        
-        return false;
-    }
-                            
+                          
 }
